@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Target versi ECMAScript yang diinginkan
+    "module": "CommonJS", // Gunakan CommonJS sebagai sistem modul
+    "outDir": "./dist", // Direktori output untuk file JavaScript yang dikompilasi
+    "rootDir": "./src", // Direktori root untuk source file TypeScript Anda
+    "strict": true, // Mengaktifkan pemeriksaan tipe yang ketat
+    "esModuleInterop": true, // Memungkinkan interoperabilitas dengan modul ES
+    "skipLibCheck": true, // Melewatkan pemeriksaan tipe pada file library
+    "forceConsistentCasingInFileNames": true // Memastikan casing nama file konsisten
+  },
+  "include": [
+    "src/**/*.ts" // Termasuk semua file TypeScript di dalam folder src
+  ],
+  "exclude": [
+    "node_modules" // Mengecualikan folder node_modules
+  ]
+}
